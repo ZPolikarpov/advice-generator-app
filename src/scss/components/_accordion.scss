@@ -1,0 +1,47 @@
+@use "../abstracts/" as *;
+
+.accordion {
+  &__item {
+    overflow: hidden;
+
+    &:where(:not(:first-child)) {
+      border-top: $accordion-item-border;
+      padding-block: $accordion-item-padding;
+    }
+
+    &:first-child {
+      padding-block: $accordion-item-padding;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &__heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      color: $accordion-heading-color-default;
+      font-size: $accordion-heading-font-size;
+
+      &:is(:hover, :focus) {
+        h2 {
+          color: $accordion-heading-color-hover;
+        }
+      }
+    }
+
+    &__content {
+      display: none;
+      padding-top: $accordion-content-padding;
+      line-height: $accordion-content-line-height;
+      font-size: $accordion-content-font-size;
+      color: $accordion-content-color-default;
+
+      &[aria-hidden="false"] {
+        display: block;
+      }
+    }
+  }
+}
