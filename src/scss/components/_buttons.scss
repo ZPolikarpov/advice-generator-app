@@ -16,11 +16,10 @@
     transform: translateY(50%) translateX(-50%);
     background-color: $button-primary-background;
 
-    &:is(:hover, :focus) {
+    &:is(:hover) {
       box-shadow: $box-shadow-1;
     }
   }
 
   transition: 275ms ease;
-
 }
