@@ -58,7 +58,7 @@ $flex-group-gap: $size-4;
 
 $section-padding-block: clamp(5rem, 10vh, 6rem);
 
-$container-min-margin-inline: $size-1;
+$container-min-margin-inline: $size-4;
 $container-max-width: 33.75rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
@@ -69,9 +69,14 @@ $button-primary-background: $color-primary-400;
 
 // cards
 $card-flow-spacing: $size-6;
-$card-padding: clamp($size-6, 2.254vw + 0.972rem, $size-10);
+$card-padding-inline: clamp($size-6, 2.254vw + 0.972rem, $size-10);
+$card-padding-block: $size-6;
 $card-shadow: $box-shadow-2;
-$card-border-radius: clamp($border-radius-1, 0.469vw + 0.515rem, $border-radius-2);
+$card-border-radius: clamp(
+  $border-radius-1,
+  0.469vw + 0.515rem,
+  $border-radius-2
+);
 $card-background-default: $color-neutral-700;
 $card-color-default: $body-text-color;
 $card-font-family: $body-font-family;

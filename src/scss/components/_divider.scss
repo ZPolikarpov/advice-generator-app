@@ -1,0 +1,6 @@
+@use "../abstracts/" as *;
+
+.divider {
+  margin-block-start: clamp(0rem, 1.502vw - 0.352rem, 1rem);
+  margin-block-end: clamp(2.5rem, -1.502vw + 2.852rem, 1.5rem);
+}
