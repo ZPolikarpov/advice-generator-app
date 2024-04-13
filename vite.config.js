@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     htmlPurge([htmlPurge()]),
   ],
+	base: '/advice-generator-app/',
 })

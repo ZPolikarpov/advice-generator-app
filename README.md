@@ -1,7 +1,13 @@
-# Project Title
+# Advice generator app
 
-A brief description of what this project does and who it's for\
+This is a solution to the Advice generator app challenge on Frontend Mentor.
+
+### Links
+
+Solution URL: [Solution - Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-using-scss-and-react-kGg54tf4RL)\
+Live Site URL: [Live Site](https://zpolikarpov.github.io/advice-generator-app/)\
 \
+
 To run the project:
 
 - Clone the repository
@@ -45,6 +51,6 @@ Folder for 3rd party libraries.
 
 The project uses Vite to create a React app. Currently Vite is just used to create the environment and for PurgeCSS and PostCSS.
 
-### React
+# Author
 
-Not used for anything specific as of now. I will start learning and working with React later down the line, so I figured I might as well include it in my template.
+Frontend Mentor - [@ZPolikarpov](https://www.frontendmentor.io/profile/ZPolikarpov)
