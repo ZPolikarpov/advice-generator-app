@@ -4,7 +4,7 @@ This is a solution to the Advice generator app challenge on Frontend Mentor.
 
 ### Links
 
-Solution URL: [Solution - Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-using-scss-and-react-kGg54tf4RL)\
+Solution URL: [Solution - Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-A3LWnhYA8f)\
 Live Site URL: [Live Site](https://zpolikarpov.github.io/advice-generator-app/)\
 \
 
